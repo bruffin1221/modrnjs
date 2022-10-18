@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope Chain and Closures</title>
+    <style>
+        body{
+            background: black;
+            color: white;
+            text-align: center
+        }
+        ul#list{
+            list-style-type: none;   
+        }
+
+        ul#list li{
+            margin-right: 30px
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Scope Chain and Closures</h1>
+    <label for="name">Name</label>
+    <br>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <label for="your-points">Your Points</label>
+    <br>
+    <input type="text" name="your-points" id="your-points">
+    <br>
+    <br>
+    <label for="total-points">Total Points</label>
+    <br>
+    <input type="text" name="total-points" id="points">
+    <br>
+    <br>
+    <button id="number-grade">Grade</button>
+    <div id="grades">
+        <h3>Grades</h3>
+        <button id="total-grade">Total Grade</button>
+        <p id="your-grade"></p>
+        <ul id="list">
+
+        </ul>
+    </div>
+</body>
+<script src="scopechain.js"></script>
+</html>
+
